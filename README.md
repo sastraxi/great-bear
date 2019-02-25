@@ -18,10 +18,10 @@ Food delivery sample application metarepo (PostgreSQL / GraphQL / React).
   * denormalized database - don't prematurely optimise
   * camel_case vs snakeCase
   * auditability
-  * security, speed, etc. etc. its good database mmmmkay?
+  * security, speed, etc. etc. its a good database mmmmkay?
 * aim for the absolute bare minimum of backend boilerplate
 * event system
-  * hasura: built-in
+  * hasura: built-in, console helps hugely with debugging
   * postgraphile: pg-pubsub, capture + subscribe to events ourselves
   * prisma:
 * developer experience
