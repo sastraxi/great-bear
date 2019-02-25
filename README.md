@@ -28,8 +28,12 @@ Food delivery sample application metarepo (PostgreSQL / GraphQL / React).
   * hasura: docker not shutting down cleanly, no js extensibility
   * postgraphile: lots of setup, lots of power. well thought-out APIs.
   * prisma:
+* differences in approach
+  * hasura: external "appliance", column security + public schema
+  * postgraphile: external or library, RLS, different schemas (no col. security)
+  * 
 * takeaways
-  * hasura, then postgraphile, then prisma
+  * order of work: hasura, then postgraphile, then prisma
   * 
 
 ### Navigation Idea
