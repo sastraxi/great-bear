@@ -5,15 +5,17 @@ Food delivery sample application metarepo (PostgreSQL / GraphQL / React).
 * attempt at a fair comparison between Hasura, PostGraphile, and Prisma 
   * why these 3 technologies (why graphql)?
   * why is a food delivery website the best app to build?
-  * how is it fair?
+    * event triggers ("microservices")
+    * subscriptions ("push notifications")
   * methodology?
+    * stay as close to technology-specific best practices
 * what are you measuring? 
   * nloc (sql, ts)
   * 
 * keep best practices wrt security, frontend tech
   * cookies
-  * react hooks - not everything yet
-  * styled-components - keeps css near the js, parent-enforces-child-bounds
+  * react hooks (not everything yet)
+  * styled-components - keeps css near the js
 * postgresql
   * denormalized database - don't prematurely optimise
   * camel_case vs snakeCase
@@ -23,15 +25,15 @@ Food delivery sample application metarepo (PostgreSQL / GraphQL / React).
 * event system
   * hasura: built-in, console helps hugely with debugging
   * postgraphile: pg-pubsub, capture + subscribe to events ourselves
-  * prisma:
+  * prisma: subscribe via graphql in-app, proxy to consumer-facing graphql api
 * developer experience
   * hasura: docker not shutting down cleanly, no js extensibility
   * postgraphile: lots of setup, lots of power. well thought-out APIs.
-  * prisma:
+  * prisma: 
 * differences in approach
   * hasura: external "appliance", column security + public schema
   * postgraphile: external or library, RLS, different schemas (no col. security)
-  * 
+  * prisma: exteral "appliance"
 * takeaways
   * order of work: hasura, then postgraphile, then prisma
   * 
