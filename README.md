@@ -1,6 +1,9 @@
 # GREAT ⭑ BEAR
 Food delivery sample application metarepo (PostgreSQL / GraphQL / React).
 
+### Work-in-progress presentation
+* https://docs.google.com/presentation/d/11cpgG0O2LA16ewefyFsgJNcP6aQKR8K9pOURGPAU36s/edit?usp=sharing
+
 ### Outline
 * attempt at a fair comparison between Hasura, PostGraphile, and Prisma 
   * why these 3 technologies (why graphql)?
@@ -38,7 +41,7 @@ Food delivery sample application metarepo (PostgreSQL / GraphQL / React).
   * order of work: hasura, then postgraphile, then prisma
   * 
 
-### Navigation Idea
+### Navigation idea
 * first section is the "article", second section is technical detail
 * after first section, link to next repo ("next page in the article")
 * 
@@ -51,7 +54,7 @@ Food delivery sample application metarepo (PostgreSQL / GraphQL / React).
 
 The docs in each repository will guide you through setup.
 
-### Tools Used
+### Tools used
 * VSCode + Plugins
 * [GraphQL Playground](https://github.com/prisma/graphql-playground)
 * [pgsh](https://github.com/sastraxi/pgsh)
