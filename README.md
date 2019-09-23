@@ -59,3 +59,11 @@ The docs in each repository will guide you through setup.
 * [GraphQL Playground](https://github.com/prisma/graphql-playground)
 * [pgsh](https://github.com/sastraxi/pgsh)
 * 
+
+### What's left to do
+* finish the Prisma backend
+* refresh on what it's like to work with the three technologies
+* build a test harness to run performance / integration tests
+* we can use https://www.postgresql.org/docs/11/pgstatstatements.html to get queries / stats
+* compare some generated SQL in the presentation
+* talk about how this only scratches the surface
